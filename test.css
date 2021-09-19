@@ -1,0 +1,131 @@
+.wrapper {
+    width: 100%;
+  }
+  .pd {
+    padding: 1em;
+  }
+  .name{
+      text-align: center;
+  }
+  .box {
+    height: 600px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    float: left;
+    margin: 1em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(255, 123, 0);
+  }
+  
+  .inner {
+    background-color: cyan;
+    /* border: 2px solid black; */
+  }
+  .inner-big {
+    margin-top: 1em;
+    background-color: cyan;
+    /* border: 2px solid black; */
+  }
+  .ffb {
+    position: absolute;
+    left: 1em;
+    margin-top: 1em;
+  }
+  .fsb {
+    position: absolute;
+    right: 0;
+  }
+  .ftb {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+  }
+  .sfb {
+    width: 44%;
+    left: 1em;
+    position: absolute;
+  }
+  .ssb {
+    width: 44%;
+    right: 1em;
+    position: absolute;
+  }
+  .tfb {
+    position: absolute;
+  
+    left: 1em;
+  }
+  .tsb {
+    position: absolute;
+  
+    right: 1em;
+    bottom: 1em;
+  }
+  img {
+    object-fit: cover;
+  }
+  .img1 {
+    position: absolute;
+    right: 1em;
+  }
+  .img2 {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+  }
+
+  .t1{
+    position: absolute;
+    width:42%;
+    left: 28%;
+    margin-top: 1em;
+
+  }
+
+  .t2{
+    position: absolute;
+    bottom: 1em;
+    width:42%;
+    left: 28%;
+     
+  }
+  @media screen and (min-width: 768px) {
+    .box {
+      width: 30%;
+    }
+    .inner {
+      height: 45%;
+    }
+    .inner-big {
+      height: 90%;
+    }
+    .sm {
+      width: 45%;
+    }
+  
+    .lg {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .box {
+      width: 100%;
+    }
+    .inner {
+      height: 45%;
+    }
+    .inner-big {
+      height: 90%;
+    }
+    .sm {
+      width: 45%;
+    }
+  
+    .lg {
+      width: 90%;
+    }
+  }
